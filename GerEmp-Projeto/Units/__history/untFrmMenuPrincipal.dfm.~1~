@@ -762,19 +762,8 @@ object frmMenuPrincipal: TfrmMenuPrincipal
         ParentFont = False
         Spacing = 10
         StyleElements = []
+        OnClick = abrirSubMenu
         ExplicitTop = 16
-      end
-      object pnlSubMenuCategoria4: TPanel
-        Left = 0
-        Top = 33
-        Width = 161
-        Height = 0
-        Align = alClient
-        BevelOuter = bvNone
-        Color = 6246217
-        ParentBackground = False
-        TabOrder = 0
-        StyleElements = []
       end
     end
     object pnlMenuCategoria3: TPanel
@@ -845,19 +834,8 @@ object frmMenuPrincipal: TfrmMenuPrincipal
         ParentFont = False
         Spacing = 10
         StyleElements = []
+        OnClick = abrirSubMenu
         ExplicitTop = 24
-      end
-      object pnlSubMenuCategoria3: TPanel
-        Left = 0
-        Top = 33
-        Width = 161
-        Height = 0
-        Align = alClient
-        BevelOuter = bvNone
-        Color = 6246217
-        ParentBackground = False
-        TabOrder = 0
-        StyleElements = []
       end
     end
   end

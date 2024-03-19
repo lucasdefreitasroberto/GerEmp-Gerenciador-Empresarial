@@ -5,7 +5,6 @@ inherited frmPedidoVenda: TfrmPedidoVenda
   inherited pnlPrincipal: TPanel
     inherited pnlCentro: TPanel
       inherited pgcPrincipal: TPageControl
-        ActivePage = TabSheet1
         inherited tsPesquisa: TTabSheet
           object Panel1: TPanel
             Left = 167

@@ -762,6 +762,7 @@ object frmMenuPrincipal: TfrmMenuPrincipal
         ParentFont = False
         Spacing = 10
         StyleElements = []
+        OnClick = abrirSubMenu
         ExplicitTop = 16
       end
       object pnlSubMenuCategoria4: TPanel
@@ -845,6 +846,7 @@ object frmMenuPrincipal: TfrmMenuPrincipal
         ParentFont = False
         Spacing = 10
         StyleElements = []
+        OnClick = abrirSubMenu
         ExplicitTop = 24
       end
       object pnlSubMenuCategoria3: TPanel

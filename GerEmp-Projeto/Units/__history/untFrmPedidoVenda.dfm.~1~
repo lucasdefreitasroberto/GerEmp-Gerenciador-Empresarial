@@ -1,37 +1,32 @@
-inherited frmPedidoCompra: TfrmPedidoCompra
-  Caption = 'frmPedidoCompra'
+inherited frmPedidoVenda: TfrmPedidoVenda
+  Caption = 'frmPedidoVenda'
   PixelsPerInch = 96
   TextHeight = 13
   inherited pnlPrincipal: TPanel
     inherited pnlCentro: TPanel
-      inherited pnlheader: TPanel
-        inherited edtPesquisarCod: TJvCalcEdit
-          Left = 65
-          ExplicitLeft = 65
-        end
-      end
       inherited pgcPrincipal: TPageControl
+        ActivePage = TabSheet1
         inherited tsPesquisa: TTabSheet
           object Panel1: TPanel
             Left = 167
             Top = 1
-            Width = 822
+            Width = 824
             Height = 550
             BevelOuter = bvNone
             TabOrder = 0
             object Panel2: TPanel
               Left = 0
               Top = 0
-              Width = 822
+              Width = 824
               Height = 41
               Align = alTop
               TabOrder = 0
               object Label1: TLabel
-                Left = 266
+                Left = 267
                 Top = 7
-                Width = 307
+                Width = 291
                 Height = 28
-                Caption = 'Cadastro de Pedido de Compra'
+                Caption = 'Cadastro de Pedido de Venda'
                 Font.Charset = DEFAULT_CHARSET
                 Font.Color = clGrayText
                 Font.Height = -20
@@ -136,8 +131,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                 TabOrder = 2
                 DecimalPlacesAlwaysShown = False
                 OnButtonClick = edtCodPessoaButtonClick
-                OnKeyPress = edtCodPessoaKeyPress
-                DataField = 'PESSOA_FORNECEDOR_PDC'
+                DataField = 'PESSOA_CLIENTE_PDV'
                 DataSource = DS
               end
             end
@@ -191,7 +185,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                   Top = 9
                   Width = 254
                   Height = 28
-                  DataField = 'DTCADASTRO_PDC'
+                  DataField = 'DTCADASTRO_PDV'
                   DataSource = DS
                   Enabled = False
                   Font.Charset = DEFAULT_CHARSET
@@ -223,7 +217,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                   Top = 9
                   Width = 254
                   Height = 28
-                  DataField = 'DTALTERACAO_PDC'
+                  DataField = 'DTALTERACAO_PDV'
                   DataSource = DS
                   Enabled = False
                   Font.Charset = DEFAULT_CHARSET
@@ -263,7 +257,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                 Width = 803
                 Height = 168
                 Align = alBottom
-                DataField = 'OBS_PDC'
+                DataField = 'OBS_PDV'
                 DataSource = DS
                 Font.Charset = DEFAULT_CHARSET
                 Font.Color = clWindowText
@@ -337,7 +331,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                 Height = 212
                 Align = alRight
                 TabOrder = 1
-                object btnNovoProdut: TBitBtn
+                object btnNovoProd: TBitBtn
                   Tag = 10
                   AlignWithMargins = True
                   Left = 4
@@ -813,7 +807,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
                   Spacing = 0
                   TabOrder = 0
                   WordWrap = True
-                  OnClick = btnNovoProdutClick
+                  OnClick = btnNovoProdClick
                 end
                 object btnApagarProd: TBitBtn
                   Tag = 20
@@ -1301,7 +1295,7 @@ inherited frmPedidoCompra: TfrmPedidoCompra
     end
   end
   object dsProduto: TDataSource
-    DataSet = DMPedidoCompra.cdsProduto
+    DataSet = DMPedidoVenda.cdsProduto
     OnDataChange = DSDataChange
     Left = 1238
     Top = 769

@@ -32,8 +32,6 @@ type
     pnlMenuCategoria3: TPanel;
     btnMenuCategoria3: TSpeedButton;
     pnlCentral: TPanel;
-    pnlSubMenuCategoria4: TPanel;
-    pnlSubMenuCategoria3: TPanel;
     procedure abrirSubMenu(Sender: TObject);
     procedure abrirFormulario(Sender: TObject);
     procedure FormCreate(Sender: TObject);
