@@ -11,8 +11,9 @@ O objetivo deste desafio é avaliar as competências técnicas.
 #  Diagrama de Pacotes
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/edeff5f5-b310-425c-992b-5a98eafe8771)
 
-#  Versão Firebird 2.5
-
+#  Firebird 
+   Versão : 2.5.9
+   
 #  Diretório
 Um diretório para os arquivos será criado em C:\GerEmp, o qual incluirá uma pasta 'DADOS' contendo o banco de dados DADOS.fdb, e uma pasta 'exe' contendo o executável e a DLL de conexão.
 <br>![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/c1e8415e-e149-4db3-b4ae-07dff799600e)
