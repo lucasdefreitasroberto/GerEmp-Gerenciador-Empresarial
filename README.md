@@ -59,3 +59,23 @@ No cadastro de produtos, é possível registrar itens com os seguintes campos: n
 #  Cadastro de Úsuarios
 No cadastro de usuários, é possível registrar os usuários de acesso ao sistema, incluindo nome, login e senha. Além disso, há a possibilidade de bloquear os usuários quando necessário.
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/dc06bd30-c975-4ea7-ae71-2c04e65616ad)
+
+#  Cadastro de Pedido de Venda
+No cadastro de pedido de venda, é possível informar o cliente e adicionar observações relevantes ao pedido.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/3a79ffb5-a8ff-4d54-94ad-11231f46fc71)
+<br>
+Na aba de produtos do pedido de venda, é possível selecionar os produtos que farão parte do pedido, informando o código, nome e valor de cada um. 
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/4e390332-e7c7-436c-816a-78bdd9364058)
+<br>
+Após a conclusão do pedido, o sistema realizará automaticamente a baixa ou estorno no estoque dos produtos selecionados.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/a0d0ee7c-d799-4588-af24-4c0b53bde513)
+
+#  Cadastro de Pedido de Compra 
+No cadastro de pedido de compra, é possível informar o fornecedor e adicionar observações pertinentes ao pedido, seguindo a mesma lógica do pedido de venda.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/b0cf8ed1-12a4-4ff6-880e-acbc9e4f0a98)
+<br>
+Na aba de produtos do pedido de compra, você pode informar quais produtos farão parte do pedido, incluindo o código, nome e valor de cada um.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/34cd61ec-74e6-4b4f-b325-c48e7bb791c8)
+
+
+
