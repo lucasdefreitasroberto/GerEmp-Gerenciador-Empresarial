@@ -54,5 +54,8 @@ Além disso, também é possível cadastrar o telefone da pessoa.
 
 #  Cadastro de Produto
 No cadastro de produtos, é possível registrar itens com os seguintes campos: nome, preço promocional, preço regular, estoque, preço da última compra e estoque para a próxima venda (PVN). Esses campos serão calculados automaticamente na tela de pedido de compra e pedido de venda.
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/9a8eacc7-0a8c-48c6-8370-5dc899d9b64b)
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/669eb0da-dbc8-4367-8946-1de0266da0cb)
 
+#  Cadastro de Úsuarios
+No cadastro de usuários, é possível registrar os usuários de acesso ao sistema, incluindo nome, login e senha. Além disso, há a possibilidade de bloquear os usuários quando necessário.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/dc06bd30-c975-4ea7-ae71-2c04e65616ad)
