@@ -2,7 +2,7 @@ AProjeto: GerEmp – Gerenciador Empresarial
 ===================
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/d95826f7-4d05-4145-8a27-b64c4a2809d2)
 
-#Objetivo
+# Objetivo
 O objetivo deste desafio é avaliar as competências técnicas.
 
 # Introdução
@@ -15,6 +15,7 @@ O objetivo deste desafio é avaliar as competências técnicas.
 Um diretório para os arquivos será criado em C:\GerEmp, o qual incluirá uma pasta 'DADOS' contendo o banco de dados DADOS.fdb, e uma pasta 'exe' contendo o executável e a DLL de conexão.
 <br>![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/c1e8415e-e149-4db3-b4ae-07dff799600e)
 
+
 #  Login
 "O sistema oferece a funcionalidade de login, permitindo o acesso por meio do usuário padrão com as seguintes credenciais:
 <br>
@@ -22,11 +23,13 @@ Login: ADMIN
 <br>
 Senha: ADMIN"
 <br>
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/48384c22-a562-4d18-bebb-2eb3fa6eece8)
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/4add352e-9962-4df8-a263-e560dcf90a17)
+
 
 #  Interface
 "O usuário terá uma interface que permite interagir com o menu lateral para acessar suas respectivas funcionalidades."
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/84c51a9e-5f14-4f17-8f7c-3071d8cfbef4)
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/a316c805-0dc4-4729-a188-51a0a6f20a5e)
+
 
 #  Pesquisa
 Cada tela do sistema inclui um formulário de pesquisa, onde estão disponíveis as condições e campos de busca.
@@ -36,16 +39,20 @@ Cada tela do sistema inclui um formulário de pesquisa, onde estão disponíveis
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/7d487192-4f1c-4b87-824e-f1159d80cd64)
 <br>
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/9052248d-374e-46e0-9011-9466c0e18531)
-
+<br>
 
 #  Cadastro de Pessoa
 No cadastro de pessoa, é possível registrar indivíduos com os seguintes campos: nome, logradouro, bairro, município, estado, número, complemento, tipo (pessoa física ou jurídica), CPF/CNPJ, sexo e relação (cliente, fornecedor ou ambos).
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/794323de-353f-40aa-8db3-1587dbffefba)
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/e6ad9b78-657e-478f-9e5b-0afe41e15f36)
 <br>
 Além disso, também é possível cadastrar o telefone da pessoa.
 <br>
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/4c964715-2d7c-4c1f-9d56-233c7be33957)
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/69558e05-6b0c-4a8f-9c1b-360ef8e90ead)
 <br>
-![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/d1712cbf-4b6c-4faa-b817-de85a123478f)
-<br>
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/b14b8386-b6c0-4091-b852-c47d2ce0fe4f)
+
+
+#  Cadastro de Produto
+No cadastro de produtos, é possível registrar itens com os seguintes campos: nome, preço promocional, preço regular, estoque, preço da última compra e estoque para a próxima venda (PVN). Esses campos serão calculados automaticamente na tela de pedido de compra e pedido de venda.
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/9a8eacc7-0a8c-48c6-8370-5dc899d9b64b)
 
