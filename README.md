@@ -15,11 +15,16 @@ O objetivo deste desafio é avaliar as competências técnicas.
 ![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/5e687298-e7a2-4518-a682-68b1c1541c12)
 
    Versão : 2.5.9
-   
+<br>
+
 #  Diretório
 Um diretório para os arquivos será criado em C:\GerEmp, o qual incluirá uma pasta 'DADOS' contendo o banco de dados DADOS.fdb, e uma pasta 'exe' contendo o executável e a DLL de conexão.
 <br>![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/c1e8415e-e149-4db3-b4ae-07dff799600e)
+<br>
 
+#  Diagrama do Banco de Dados
+![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/d439e580-3859-4df4-b888-94d37c052cce)
+<br>
 
 #  Login
 "O sistema oferece a funcionalidade de login, permitindo o acesso por meio do usuário padrão com as seguintes credenciais:
