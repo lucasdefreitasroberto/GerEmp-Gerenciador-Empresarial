@@ -19,6 +19,7 @@ O objetivo deste desafio é avaliar as competências técnicas.
 
 #  Diretório
 Um diretório para os arquivos será criado em C:\GerEmp, o qual incluirá uma pasta 'DADOS' contendo o banco de dados DADOS.fdb, e uma pasta 'exe' contendo o executável e a DLL de conexão.
+<br>
 <br>![image](https://github.com/lucasdefreitasroberto/GerEmp-Gerenciador-Empresarial/assets/68399974/c1e8415e-e149-4db3-b4ae-07dff799600e)
 <br>
 
